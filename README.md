@@ -6,7 +6,7 @@
 
 <a href="https://github.com/dajinglingpake?tab=followers"><img src="https://img.shields.io/github/followers/dajinglingpake?style=for-the-badge&logo=github&label=Followers&color=0ea5e9" alt="GitHub followers" /></a>
 <a href="https://github.com/dajinglingpake?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-Active-22c55e?style=for-the-badge&logo=github" alt="Open source" /></a>
-<img src="https://img.shields.io/badge/Profile-Active-f97316?style=for-the-badge&logo=github" alt="Profile status" />
+<a href="https://github.com/dajinglingpake"><img src="https://img.shields.io/badge/Profile-Active-f97316?style=for-the-badge&logo=github" alt="Profile status" /></a>
 
 </div>
 
