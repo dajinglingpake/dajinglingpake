@@ -52,18 +52,20 @@
 
 <div align="center">
 
+<!-- CONTRIBUTED-REPOS:START -->
 <a href="https://github.com/openai/codex">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=openai&repo=codex&theme=tokyonight&hide_border=true" alt="openai/codex" />
-</a>
-<a href="https://github.com/burrowers/garble">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=burrowers&repo=garble&theme=tokyonight&hide_border=true" alt="burrowers/garble" />
-</a>
-<a href="https://github.com/zhouxiaoka/autoclip">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=zhouxiaoka&repo=autoclip&theme=tokyonight&hide_border=true" alt="zhouxiaoka/autoclip" />
 </a>
 <a href="https://github.com/decolua/9router">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=decolua&repo=9router&theme=tokyonight&hide_border=true" alt="decolua/9router" />
 </a>
+<a href="https://github.com/zhouxiaoka/autoclip">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=zhouxiaoka&repo=autoclip&theme=tokyonight&hide_border=true" alt="zhouxiaoka/autoclip" />
+</a>
+<a href="https://github.com/burrowers/garble">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=burrowers&repo=garble&theme=tokyonight&hide_border=true" alt="burrowers/garble" />
+</a>
+<!-- CONTRIBUTED-REPOS:END -->
 
 </div>
 

@@ -1,0 +1,32 @@
+name: Update profile README
+
+on:
+  schedule:
+    - cron: "0 22 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-contributed-repos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update contributed repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_LOGIN: dajinglingpake
+          MIN_STARS: "1000"
+          MAX_REPOS: "6"
+        run: python3 scripts/update_contributed_repos.py
+
+      - name: Commit README changes
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: "docs: 更新开源贡献项目"
+          file_pattern: README.md
