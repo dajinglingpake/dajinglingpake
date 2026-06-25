@@ -6,7 +6,7 @@
 
 <a href="https://github.com/dajinglingpake?tab=followers"><img src="https://img.shields.io/github/followers/dajinglingpake?style=for-the-badge&logo=github&label=Followers&color=0ea5e9" alt="GitHub followers" /></a>
 <a href="https://github.com/dajinglingpake?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-Active-22c55e?style=for-the-badge&logo=github" alt="Open source" /></a>
-<img src="https://komarev.com/ghpvc/?username=dajinglingpake&style=for-the-badge&color=orange" alt="Profile views" />
+<img src="https://img.shields.io/badge/Profile-Active-f97316?style=for-the-badge&logo=github" alt="Profile status" />
 
 </div>
 
@@ -57,24 +57,24 @@
 <tr>
 <td align="center" width="50%">
 <a href="https://github.com/openai/codex">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=openai&repo=codex&theme=tokyonight&hide_border=true" alt="openai/codex" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=openai&repo=codex&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="openai/codex" />
 </a>
 </td>
 <td align="center" width="50%">
 <a href="https://github.com/decolua/9router">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=decolua&repo=9router&theme=tokyonight&hide_border=true" alt="decolua/9router" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=decolua&repo=9router&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="decolua/9router" />
 </a>
 </td>
 </tr>
 <tr>
 <td align="center" width="50%">
 <a href="https://github.com/zhouxiaoka/autoclip">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=zhouxiaoka&repo=autoclip&theme=tokyonight&hide_border=true" alt="zhouxiaoka/autoclip" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=zhouxiaoka&repo=autoclip&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="zhouxiaoka/autoclip" />
 </a>
 </td>
 <td align="center" width="50%">
 <a href="https://github.com/burrowers/garble">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=burrowers&repo=garble&theme=tokyonight&hide_border=true" alt="burrowers/garble" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=burrowers&repo=garble&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="burrowers/garble" />
 </a>
 </td>
 </tr>
@@ -91,19 +91,19 @@
 <tr>
 <td align="center" width="50%">
 <a href="https://github.com/dajinglingpake/MyThinkMap">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dajinglingpake&repo=MyThinkMap&theme=tokyonight&hide_border=true" alt="MyThinkMap" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dajinglingpake&repo=MyThinkMap&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="MyThinkMap" />
 </a>
 </td>
 <td align="center" width="50%">
 <a href="https://github.com/dajinglingpake/mihomo-proxy-stack">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dajinglingpake&repo=mihomo-proxy-stack&theme=tokyonight&hide_border=true" alt="mihomo-proxy-stack" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dajinglingpake&repo=mihomo-proxy-stack&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="mihomo-proxy-stack" />
 </a>
 </td>
 </tr>
 <tr>
 <td align="center" colspan="2">
 <a href="https://github.com/dajinglingpake/chatbridge">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dajinglingpake&repo=chatbridge&theme=tokyonight&hide_border=true" alt="chatbridge" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dajinglingpake&repo=chatbridge&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="chatbridge" />
 </a>
 </td>
 </tr>

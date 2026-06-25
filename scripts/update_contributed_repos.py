@@ -9,6 +9,7 @@ LOGIN = os.getenv("GITHUB_LOGIN", "dajinglingpake")
 README_PATH = os.getenv("README_PATH", "README.md")
 MIN_STARS = int(os.getenv("MIN_STARS", "1000"))
 MAX_REPOS = int(os.getenv("MAX_REPOS", "6"))
+PIN_CARD_OPTIONS = "theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2"
 START = "<!-- CONTRIBUTED-REPOS:START -->"
 END = "<!-- CONTRIBUTED-REPOS:END -->"
 
@@ -75,7 +76,7 @@ def render_repo_cards(repos: list[dict]) -> str:
         card = "\n".join(
             [
                 f'<a href="{repo["url"]}">',
-                f'  <img src="https://github-readme-stats.vercel.app/api/pin/?username={owner}&repo={name}&theme=tokyonight&hide_border=true" alt="{repo["nameWithOwner"]}" />',
+                f'  <img src="https://github-readme-stats.vercel.app/api/pin/?username={owner}&repo={name}&{PIN_CARD_OPTIONS}" alt="{repo["nameWithOwner"]}" />',
                 "</a>",
             ]
         )
