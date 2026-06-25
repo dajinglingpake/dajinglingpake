@@ -53,18 +53,32 @@
 <div align="center">
 
 <!-- CONTRIBUTED-REPOS:START -->
+<table align="center">
+<tr>
+<td align="center" width="50%">
 <a href="https://github.com/openai/codex">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=openai&repo=codex&theme=tokyonight&hide_border=true" alt="openai/codex" />
 </a>
+</td>
+<td align="center" width="50%">
 <a href="https://github.com/decolua/9router">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=decolua&repo=9router&theme=tokyonight&hide_border=true" alt="decolua/9router" />
 </a>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
 <a href="https://github.com/zhouxiaoka/autoclip">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=zhouxiaoka&repo=autoclip&theme=tokyonight&hide_border=true" alt="zhouxiaoka/autoclip" />
 </a>
+</td>
+<td align="center" width="50%">
 <a href="https://github.com/burrowers/garble">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=burrowers&repo=garble&theme=tokyonight&hide_border=true" alt="burrowers/garble" />
 </a>
+</td>
+</tr>
+</table>
 <!-- CONTRIBUTED-REPOS:END -->
 
 </div>
@@ -73,15 +87,27 @@
 
 <div align="center">
 
+<table align="center">
+<tr>
+<td align="center" width="50%">
 <a href="https://github.com/dajinglingpake/MyThinkMap">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=dajinglingpake&repo=MyThinkMap&theme=tokyonight&hide_border=true" alt="MyThinkMap" />
 </a>
+</td>
+<td align="center" width="50%">
 <a href="https://github.com/dajinglingpake/mihomo-proxy-stack">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=dajinglingpake&repo=mihomo-proxy-stack&theme=tokyonight&hide_border=true" alt="mihomo-proxy-stack" />
 </a>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
 <a href="https://github.com/dajinglingpake/chatbridge">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=dajinglingpake&repo=chatbridge&theme=tokyonight&hide_border=true" alt="chatbridge" />
 </a>
+</td>
+</tr>
+</table>
 
 </div>
 

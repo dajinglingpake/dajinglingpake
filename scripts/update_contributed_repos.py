@@ -69,19 +69,36 @@ def render_repo_cards(repos: list[dict]) -> str:
     if not repos:
         return "暂未发现符合展示阈值的开源贡献项目。"
 
-    blocks = []
+    cells = []
     for repo in repos:
         owner, name = repo["nameWithOwner"].split("/", 1)
-        blocks.append(
+        card = "\n".join(
+            [
+                f'<a href="{repo["url"]}">',
+                f'  <img src="https://github-readme-stats.vercel.app/api/pin/?username={owner}&repo={name}&theme=tokyonight&hide_border=true" alt="{repo["nameWithOwner"]}" />',
+                "</a>",
+            ]
+        )
+        cells.append(
             "\n".join(
                 [
-                    f'<a href="{repo["url"]}">',
-                    f'  <img src="https://github-readme-stats.vercel.app/api/pin/?username={owner}&repo={name}&theme=tokyonight&hide_border=true" alt="{repo["nameWithOwner"]}" />',
-                    "</a>",
+                    '<td align="center" width="50%">',
+                    card,
+                    "</td>",
                 ]
             )
         )
-    return "\n".join(blocks)
+
+    rows = ['<table align="center">']
+    for index in range(0, len(cells), 2):
+        row_cells = cells[index : index + 2]
+        if len(row_cells) == 1:
+            row_cells.append('<td align="center" width="50%"></td>')
+        rows.append("<tr>")
+        rows.extend(row_cells)
+        rows.append("</tr>")
+    rows.append("</table>")
+    return "\n".join(rows)
 
 
 def replace_block(readme: str, content: str) -> str:
