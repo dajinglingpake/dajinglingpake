@@ -3,7 +3,6 @@ import html
 import json
 import os
 import sys
-import textwrap
 import urllib.request
 from urllib.parse import urlencode
 
@@ -25,10 +24,8 @@ query($login: String!) {
       contributionTypes: [PULL_REQUEST, ISSUE]
     ) {
       nodes {
-        name
         nameWithOwner
         url
-        description
         stargazerCount
         isPrivate
       }
@@ -79,17 +76,11 @@ def render_repo_list(repos: list[dict]) -> str:
         name = html.escape(repo["nameWithOwner"])
         url = html.escape(repo["url"], quote=True)
         activity_url = html.escape(f'{repo["url"]}/issues?{activity_query}', quote=True)
-        description = html.escape(
-            textwrap.shorten(repo.get("description") or "", width=140, placeholder="...")
-        )
-        summary = f" — {description}" if description else ""
         items.extend(
             [
-                "<li>",
-                f"<strong>{name}</strong>{summary}<br />",
-                f'<a href="{url}">访问仓库</a> · '
-                f'<a href="{activity_url}">查看我的 PR / Issue</a>',
-                "</li>",
+                f'<li><strong>{name}</strong> · '
+                f'<a href="{url}">查看仓库</a> · '
+                f'<a href="{activity_url}">查看参与记录</a></li>',
             ]
         )
 
