@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import html
 import json
 import os
 import sys
@@ -9,7 +10,6 @@ LOGIN = os.getenv("GITHUB_LOGIN", "dajinglingpake")
 README_PATH = os.getenv("README_PATH", "README.md")
 MIN_STARS = int(os.getenv("MIN_STARS", "1000"))
 MAX_REPOS = int(os.getenv("MAX_REPOS", "6"))
-PIN_CARD_OPTIONS = "theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2"
 START = "<!-- CONTRIBUTED-REPOS:START -->"
 END = "<!-- CONTRIBUTED-REPOS:END -->"
 
@@ -26,6 +26,7 @@ query($login: String!) {
         name
         nameWithOwner
         url
+        description
         stargazerCount
         isPrivate
       }
@@ -66,40 +67,28 @@ def fetch_contributed_repos() -> list[dict]:
     return sorted(repos, key=lambda repo: (-repo["stargazerCount"], repo["nameWithOwner"].lower()))[:MAX_REPOS]
 
 
-def render_repo_cards(repos: list[dict]) -> str:
+def render_repo_list(repos: list[dict]) -> str:
     if not repos:
         return "暂未发现符合展示阈值的开源贡献项目。"
 
-    cells = []
+    items = ["<ul>"]
     for repo in repos:
-        owner, name = repo["nameWithOwner"].split("/", 1)
-        card = "\n".join(
+        name = html.escape(repo["nameWithOwner"])
+        url = html.escape(repo["url"], quote=True)
+        description = html.escape(repo.get("description") or "")
+        details = [description] if description else []
+        details.append(f'{repo["stargazerCount"]:,} stars')
+        items.extend(
             [
-                f'<a href="{repo["url"]}">',
-                f'  <img src="https://github-readme-stats.vercel.app/api/pin/?username={owner}&repo={name}&{PIN_CARD_OPTIONS}" alt="{repo["nameWithOwner"]}" />',
-                "</a>",
+                "<li>",
+                f'<a href="{url}"><strong>{name}</strong></a><br />',
+                f'<sub>{" · ".join(details)}</sub>',
+                "</li>",
             ]
         )
-        cells.append(
-            "\n".join(
-                [
-                    '<td align="center" width="50%">',
-                    card,
-                    "</td>",
-                ]
-            )
-        )
 
-    rows = ['<table align="center">']
-    for index in range(0, len(cells), 2):
-        row_cells = cells[index : index + 2]
-        if len(row_cells) == 1:
-            row_cells.append('<td align="center" width="50%"></td>')
-        rows.append("<tr>")
-        rows.extend(row_cells)
-        rows.append("</tr>")
-    rows.append("</table>")
-    return "\n".join(rows)
+    items.append("</ul>")
+    return "\n".join(items)
 
 
 def replace_block(readme: str, content: str) -> str:
@@ -118,7 +107,7 @@ def main() -> int:
     with open(README_PATH, "r", encoding="utf-8") as file:
         readme = file.read()
 
-    updated = replace_block(readme, render_repo_cards(repos))
+    updated = replace_block(readme, render_repo_list(repos))
     with open(README_PATH, "w", encoding="utf-8") as file:
         file.write(updated)
 

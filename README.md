@@ -39,77 +39,40 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=dajinglingpake&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dajinglingpake&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-
-<br />
-
-<img src="https://streak-stats.demolab.com?user=dajinglingpake&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+<a href="https://github.com/dajinglingpake">
+  <img src="https://streak-stats.demolab.com?user=dajinglingpake&theme=tokyonight&hide_border=true" alt="dajinglingpake 的 GitHub 连续贡献统计" />
+</a>
 
 </div>
 
 ## 开源贡献
 
-<div align="center">
-
 <!-- CONTRIBUTED-REPOS:START -->
-<table align="center">
-<tr>
-<td align="center" width="50%">
-<a href="https://github.com/openai/codex">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=openai&repo=codex&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="openai/codex" />
-</a>
-</td>
-<td align="center" width="50%">
-<a href="https://github.com/decolua/9router">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=decolua&repo=9router&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="decolua/9router" />
-</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
-<a href="https://github.com/zhouxiaoka/autoclip">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=zhouxiaoka&repo=autoclip&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="zhouxiaoka/autoclip" />
-</a>
-</td>
-<td align="center" width="50%">
-<a href="https://github.com/burrowers/garble">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=burrowers&repo=garble&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="burrowers/garble" />
-</a>
-</td>
-</tr>
-</table>
+<ul>
+<li>
+<a href="https://github.com/openai/codex"><strong>openai/codex</strong></a><br />
+<sub>Lightweight coding agent that runs in your terminal · 104,976 stars</sub>
+</li>
+<li>
+<a href="https://github.com/decolua/9router"><strong>decolua/9router</strong></a><br />
+<sub>Unlimited free AI coding through 40+ providers · 25,071 stars</sub>
+</li>
+<li>
+<a href="https://github.com/zhouxiaoka/autoclip"><strong>zhouxiaoka/autoclip</strong></a><br />
+<sub>AI-powered video clipping and highlight generation · 6,312 stars</sub>
+</li>
+<li>
+<a href="https://github.com/burrowers/garble"><strong>burrowers/garble</strong></a><br />
+<sub>Obfuscate Go builds · 5,625 stars</sub>
+</li>
+</ul>
 <!-- CONTRIBUTED-REPOS:END -->
-
-</div>
 
 ## 个人项目
 
-<div align="center">
-
-<table align="center">
-<tr>
-<td align="center" width="50%">
-<a href="https://github.com/dajinglingpake/MyThinkMap">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dajinglingpake&repo=MyThinkMap&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="MyThinkMap" />
-</a>
-</td>
-<td align="center" width="50%">
-<a href="https://github.com/dajinglingpake/mihomo-proxy-stack">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dajinglingpake&repo=mihomo-proxy-stack&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="mihomo-proxy-stack" />
-</a>
-</td>
-</tr>
-<tr>
-<td align="center" colspan="2">
-<a href="https://github.com/dajinglingpake/chatbridge">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dajinglingpake&repo=chatbridge&theme=tokyonight&hide_border=true&card_width=420&description_lines_count=2" alt="chatbridge" />
-</a>
-</td>
-</tr>
-</table>
-
-</div>
+- [**MyThinkMap**](https://github.com/dajinglingpake/MyThinkMap) — 带 Docker Web UI 和 MCP 知识检索的个人知识地图。
+- [**mihomo-proxy-stack**](https://github.com/dajinglingpake/mihomo-proxy-stack) — 面向无界面 Linux 的 mihomo、MetaCubeXD 与 Sub-Store 部署栈。
+- [**chatbridge**](https://github.com/dajinglingpake/chatbridge) — 连接微信、多 AI 会话与本地 agent CLI 的统一入口。
 
 ## 贡献图
 
