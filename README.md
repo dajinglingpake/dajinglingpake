@@ -1,24 +1,48 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=Hi%2C+I%27m+dajinglingpake;AI+tooling+%7C+Developer+workflow+%7C+Backend+systems;Building+small+tools+that+make+engineering+faster" alt="Typing SVG" />
+<img src="./assets/profile-hero.svg" width="100%" alt="dajinglingpake - AI tooling, developer workflow and backend systems" />
 
 <br />
 
-<a href="https://github.com/dajinglingpake?tab=followers"><img src="https://img.shields.io/github/followers/dajinglingpake?style=for-the-badge&logo=github&label=Followers&color=0ea5e9" alt="GitHub followers" /></a>
-<a href="https://github.com/dajinglingpake?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-Active-22c55e?style=for-the-badge&logo=github" alt="Open source" /></a>
-<a href="https://github.com/dajinglingpake"><img src="https://img.shields.io/badge/Profile-Active-f97316?style=for-the-badge&logo=github" alt="Profile status" /></a>
+<a href="https://github.com/dajinglingpake?tab=followers"><img src="https://img.shields.io/github/followers/dajinglingpake?style=for-the-badge&logo=github&label=Followers&color=00b8d9" alt="查看 GitHub 关注者" /></a>
+<a href="https://github.com/dajinglingpake?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-Explore-36b37e?style=for-the-badge&logo=github" alt="查看公开仓库" /></a>
+<a href="https://github.com/search?q=author%3Adajinglingpake&type=issues"><img src="https://img.shields.io/badge/Contributions-PR%20%2F%20Issue-6554c0?style=for-the-badge&logo=github" alt="查看公开 PR 和 Issue" /></a>
 
 </div>
 
-## 关于我
+## `> whoami`
 
-我关注 AI 辅助开发、后端系统、网络工具链和个人效率工具，喜欢把高频工程流程做成可复用的小工具。
+我关注 AI 辅助开发、后端系统、网络工具链和个人效率工具，喜欢把高频工程流程做成小而可靠的工具。
 
-- 常用技术栈覆盖 Java、Python、Go、JavaScript、TypeScript、Rust。
-- 关注 coding agents、developer tooling、proxy/network stacks、knowledge workflows。
-- 通过 PR、Issue 和代码变更参与开源项目。
+- 构建 coding agents、developer tooling、proxy/network stacks 和 knowledge workflows。
+- 使用 Java、Python、Go、Rust、JavaScript 与 TypeScript 完成从想法到交付。
+- 通过 PR、Issue 和代码变更持续参与开源项目。
 
-## 技术栈
+## `> featured_projects`
+
+### [chatbridge](https://github.com/dajinglingpake/chatbridge)
+
+连接微信、多 AI 会话与本地 agent CLI 的统一入口。
+
+`AI Agent` `CLI` `Developer Workflow` · [打开仓库 →](https://github.com/dajinglingpake/chatbridge)
+
+---
+
+### [mihomo-proxy-stack](https://github.com/dajinglingpake/mihomo-proxy-stack)
+
+面向无界面 Linux 的 mihomo、MetaCubeXD 与 Sub-Store 部署栈。
+
+`Network` `Docker` `Linux` · [打开仓库 →](https://github.com/dajinglingpake/mihomo-proxy-stack)
+
+---
+
+### [MyThinkMap](https://github.com/dajinglingpake/MyThinkMap)
+
+带 Docker Web UI 和 MCP 知识检索的个人知识地图。
+
+`MCP` `Knowledge Base` `Web UI` · [打开仓库 →](https://github.com/dajinglingpake/MyThinkMap)
+
+## `> tech_stack`
 
 <div align="center">
 
@@ -35,61 +59,39 @@
 
 </div>
 
-## GitHub 数据
+## `> open_source_contributions`
 
-<div align="center">
-
-<a href="https://github.com/dajinglingpake">
-  <img src="https://streak-stats.demolab.com?user=dajinglingpake&theme=tokyonight&hide_border=true" alt="dajinglingpake 的 GitHub 连续贡献统计" />
-</a>
-
-</div>
-
-## 开源贡献
+以下入口分别指向项目主页和我在该项目中公开提交的 PR / Issue。
 
 <!-- CONTRIBUTED-REPOS:START -->
 <ul>
 <li>
-<a href="https://github.com/openai/codex"><strong>openai/codex</strong></a><br />
-<sub>Lightweight coding agent that runs in your terminal · 104,976 stars</sub>
+<strong>openai/codex</strong> — Lightweight coding agent that runs in your terminal.<br />
+<a href="https://github.com/openai/codex">访问仓库</a> · <a href="https://github.com/openai/codex/issues?q=author%3Adajinglingpake">查看我的 PR / Issue</a>
 </li>
 <li>
-<a href="https://github.com/decolua/9router"><strong>decolua/9router</strong></a><br />
-<sub>Unlimited free AI coding through 40+ providers · 25,071 stars</sub>
+<strong>decolua/9router</strong> — Connect coding agents to multiple AI providers with automatic fallback.<br />
+<a href="https://github.com/decolua/9router">访问仓库</a> · <a href="https://github.com/decolua/9router/issues?q=author%3Adajinglingpake">查看我的 PR / Issue</a>
 </li>
 <li>
-<a href="https://github.com/zhouxiaoka/autoclip"><strong>zhouxiaoka/autoclip</strong></a><br />
-<sub>AI-powered video clipping and highlight generation · 6,312 stars</sub>
+<strong>zhouxiaoka/autoclip</strong> — AI-powered video clipping and highlight generation.<br />
+<a href="https://github.com/zhouxiaoka/autoclip">访问仓库</a> · <a href="https://github.com/zhouxiaoka/autoclip/issues?q=author%3Adajinglingpake">查看我的 PR / Issue</a>
 </li>
 <li>
-<a href="https://github.com/burrowers/garble"><strong>burrowers/garble</strong></a><br />
-<sub>Obfuscate Go builds · 5,625 stars</sub>
+<strong>burrowers/garble</strong> — Obfuscate Go builds.<br />
+<a href="https://github.com/burrowers/garble">访问仓库</a> · <a href="https://github.com/burrowers/garble/issues?q=author%3Adajinglingpake">查看我的 PR / Issue</a>
 </li>
 </ul>
 <!-- CONTRIBUTED-REPOS:END -->
 
-## 个人项目
-
-- [**MyThinkMap**](https://github.com/dajinglingpake/MyThinkMap) — 带 Docker Web UI 和 MCP 知识检索的个人知识地图。
-- [**mihomo-proxy-stack**](https://github.com/dajinglingpake/mihomo-proxy-stack) — 面向无界面 Linux 的 mihomo、MetaCubeXD 与 Sub-Store 部署栈。
-- [**chatbridge**](https://github.com/dajinglingpake/chatbridge) — 连接微信、多 AI 会话与本地 agent CLI 的统一入口。
-
-## 贡献图
+## `> contribution_stream`
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dajinglingpake/dajinglingpake/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dajinglingpake/dajinglingpake/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/dajinglingpake/dajinglingpake/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
+  <img src="https://raw.githubusercontent.com/dajinglingpake/dajinglingpake/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub 贡献记录动画" />
 </picture>
-
-</div>
-
-## 活跃趋势
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dajinglingpake&theme=tokyo-night&hide_border=true&area=true" alt="GitHub activity graph" />
 
 </div>

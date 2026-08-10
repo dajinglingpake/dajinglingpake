@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="title description">
+  <title id="title">dajinglingpake developer profile</title>
+  <desc id="description">Animated cyberpunk banner for AI tooling, developer workflow and backend systems</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f" />
+      <stop offset="0.5" stop-color="#10172a" />
+      <stop offset="1" stop-color="#07111f" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff" />
+      <stop offset="0.5" stop-color="#6c63ff" />
+      <stop offset="1" stop-color="#00ffa3" />
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#58a6ff" stroke-opacity="0.09" />
+    </pattern>
+    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect x="1" y="1" width="998" height="298" rx="20" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    .scan { animation: scan 5s ease-in-out infinite; }
+    .cursor { animation: blink 1s steps(2, end) infinite; }
+    .status { animation: status 8s ease-in-out infinite; }
+    .status:nth-of-type(2) { animation-delay: 2.6s; }
+    .status:nth-of-type(3) { animation-delay: 5.2s; }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.55; transform: scale(0.96); }
+      50% { opacity: 1; transform: scale(1.04); }
+    }
+    @keyframes scan {
+      0% { transform: translateY(-40px); opacity: 0; }
+      15%, 85% { opacity: 0.32; }
+      100% { transform: translateY(340px); opacity: 0; }
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes status {
+      0%, 18%, 100% { opacity: 0.25; }
+      24%, 54% { opacity: 1; }
+      60% { opacity: 0.25; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse, .scan, .cursor, .status { animation: none; }
+      .status { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="300" fill="url(#background)" />
+    <rect width="1000" height="300" fill="url(#grid)" />
+    <circle class="pulse" cx="850" cy="80" r="230" fill="url(#glow)" transform-origin="850px 80px" />
+    <circle class="pulse" cx="120" cy="290" r="170" fill="url(#glow)" transform-origin="120px 290px" style="animation-delay: 1.5s" />
+
+    <g opacity="0.48" stroke="url(#accent)" fill="none">
+      <path d="M 60 46 H 245" />
+      <path d="M 755 254 H 940" />
+      <path d="M 60 46 v 28 M 940 226 v 28" />
+    </g>
+
+    <rect class="scan" x="0" y="-40" width="1000" height="40" fill="url(#accent)" opacity="0.24" />
+
+    <g font-family="JetBrains Mono, SFMono-Regular, Consolas, Liberation Mono, monospace">
+      <text x="70" y="91" fill="#8b949e" font-size="15" letter-spacing="3">SYSTEM / DEVELOPER PROFILE</text>
+      <text x="68" y="153" fill="url(#accent)" font-size="46" font-weight="700" letter-spacing="2" filter="url(#soft-glow)">DAJINGLINGPAKE</text>
+      <rect class="cursor" x="548" y="116" width="5" height="42" rx="2" fill="#00ffa3" />
+
+      <g fill="#c9d1d9" font-size="17">
+        <text class="status" x="72" y="204">AI TOOLING</text>
+        <text class="status" x="254" y="204">DEVELOPER WORKFLOW</text>
+        <text class="status" x="532" y="204">BACKEND SYSTEMS</text>
+      </g>
+
+      <text x="72" y="252" fill="#7ee787" font-size="14">$ building small tools that make engineering faster_</text>
+      <text x="826" y="252" fill="#58a6ff" font-size="13">ONLINE</text>
+    </g>
+
+    <circle cx="803" cy="247" r="4" fill="#00ffa3" filter="url(#soft-glow)" />
+  </g>
+
+  <rect x="1" y="1" width="998" height="298" rx="20" fill="none" stroke="url(#accent)" stroke-opacity="0.7" />
+</svg>

@@ -3,7 +3,9 @@ import html
 import json
 import os
 import sys
+import textwrap
 import urllib.request
+from urllib.parse import urlencode
 
 
 LOGIN = os.getenv("GITHUB_LOGIN", "dajinglingpake")
@@ -20,7 +22,7 @@ query($login: String!) {
     repositoriesContributedTo(
       first: 100
       includeUserRepositories: false
-      contributionTypes: [COMMIT, PULL_REQUEST, ISSUE, REPOSITORY]
+      contributionTypes: [PULL_REQUEST, ISSUE]
     ) {
       nodes {
         name
@@ -72,17 +74,21 @@ def render_repo_list(repos: list[dict]) -> str:
         return "暂未发现符合展示阈值的开源贡献项目。"
 
     items = ["<ul>"]
+    activity_query = urlencode({"q": f"author:{LOGIN}"})
     for repo in repos:
         name = html.escape(repo["nameWithOwner"])
         url = html.escape(repo["url"], quote=True)
-        description = html.escape(repo.get("description") or "")
-        details = [description] if description else []
-        details.append(f'{repo["stargazerCount"]:,} stars')
+        activity_url = html.escape(f'{repo["url"]}/issues?{activity_query}', quote=True)
+        description = html.escape(
+            textwrap.shorten(repo.get("description") or "", width=140, placeholder="...")
+        )
+        summary = f" — {description}" if description else ""
         items.extend(
             [
                 "<li>",
-                f'<a href="{url}"><strong>{name}</strong></a><br />',
-                f'<sub>{" · ".join(details)}</sub>',
+                f"<strong>{name}</strong>{summary}<br />",
+                f'<a href="{url}">访问仓库</a> · '
+                f'<a href="{activity_url}">查看我的 PR / Issue</a>',
                 "</li>",
             ]
         )
