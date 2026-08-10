@@ -1,6 +1,12 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" width="100%" alt="dajinglingpake - AI tooling, developer workflow and backend systems" />
+<a href="https://github.com/dajinglingpake?tab=repositories">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero.svg" />
+    <img src="./assets/profile-hero.svg" width="100%" alt="dajinglingpake - AI tooling, developer workflow and backend systems；点击查看公开仓库" />
+  </picture>
+</a>
 
 </div>
 
@@ -14,50 +20,46 @@
 
 ## 重点项目
 
-### chatbridge
+### [chatbridge](https://github.com/dajinglingpake/chatbridge)
 
 连接微信、多 AI 会话与本地 agent CLI 的统一入口。
 
-`AI Agent` · `CLI` · `Developer Workflow` · [查看 GitHub 仓库](https://github.com/dajinglingpake/chatbridge)
+`AI Agent` · `CLI` · `Developer Workflow`
 
-### mihomo-proxy-stack
+### [mihomo-proxy-stack](https://github.com/dajinglingpake/mihomo-proxy-stack)
 
 面向无界面 Linux 的 mihomo、MetaCubeXD 与 Sub-Store 部署栈。
 
-`Network` · `Docker` · `Linux` · [查看 GitHub 仓库](https://github.com/dajinglingpake/mihomo-proxy-stack)
+`Network` · `Docker` · `Linux`
 
-### MyThinkMap
+### [MyThinkMap](https://github.com/dajinglingpake/MyThinkMap)
 
 带 Docker Web UI 和 MCP 知识检索的个人知识地图。
 
-`MCP` · `Knowledge Base` · `Web UI` · [查看 GitHub 仓库](https://github.com/dajinglingpake/MyThinkMap)
+`MCP` · `Knowledge Base` · `Web UI`
 
 ## 技术栈
 
 <div align="center">
 
-![Java](https://img.shields.io/badge/Java-1f2328?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-1f2328?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-1f2328?style=flat-square&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-1f2328?style=flat-square&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-1f2328?style=flat-square&logo=typescript&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-1f2328?style=flat-square&logo=spring&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-1f2328?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-1f2328?style=flat-square&logo=linux&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-1f2328?style=flat-square&logo=githubactions&logoColor=white)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/tech-stack.svg" />
+  <img src="./assets/tech-stack.svg" width="100%" alt="技术栈：Java、Python、Go、Rust、TypeScript、Spring、Docker、Linux 和 GitHub Actions" />
+</picture>
 
 </div>
 
 ## 开源参与
 
-可分别查看项目仓库，以及我公开提交的 PR 与 Issue。
+以下是我参与过的代表性开源项目。
 
 <!-- CONTRIBUTED-REPOS:START -->
 <ul>
-<li><strong>openai/codex</strong> · <a href="https://github.com/openai/codex">查看仓库</a> · <a href="https://github.com/openai/codex/issues?q=author%3Adajinglingpake">查看参与记录</a></li>
-<li><strong>decolua/9router</strong> · <a href="https://github.com/decolua/9router">查看仓库</a> · <a href="https://github.com/decolua/9router/issues?q=author%3Adajinglingpake">查看参与记录</a></li>
-<li><strong>zhouxiaoka/autoclip</strong> · <a href="https://github.com/zhouxiaoka/autoclip">查看仓库</a> · <a href="https://github.com/zhouxiaoka/autoclip/issues?q=author%3Adajinglingpake">查看参与记录</a></li>
-<li><strong>burrowers/garble</strong> · <a href="https://github.com/burrowers/garble">查看仓库</a> · <a href="https://github.com/burrowers/garble/issues?q=author%3Adajinglingpake">查看参与记录</a></li>
+<li><strong><a href="https://github.com/openai/codex">openai/codex</a></strong></li>
+<li><strong><a href="https://github.com/decolua/9router">decolua/9router</a></strong></li>
+<li><strong><a href="https://github.com/zhouxiaoka/autoclip">zhouxiaoka/autoclip</a></strong></li>
+<li><strong><a href="https://github.com/burrowers/garble">burrowers/garble</a></strong></li>
 </ul>
 <!-- CONTRIBUTED-REPOS:END -->
 

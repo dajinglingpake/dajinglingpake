@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-labelledby="title description">
+  <title id="title">Core technology stack</title>
+  <desc id="description">Java, Python, Go, Rust, TypeScript, Spring, Docker, Linux and GitHub Actions</desc>
+
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0969da" />
+      <stop offset="0.52" stop-color="#8250df" />
+      <stop offset="1" stop-color="#1a7f37" />
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" class="grid-line" />
+    </pattern>
+  </defs>
+
+  <style>
+    .surface { fill: #f6f8fa; }
+    .chip { fill: #ffffff; stroke: #d0d7de; }
+    .border { stroke: #d0d7de; }
+    .grid-line { stroke: #0969da; stroke-opacity: 0.05; }
+    .primary { fill: #1f2328; }
+    .secondary { fill: #59636e; }
+
+    @media (prefers-color-scheme: dark) {
+      .surface { fill: #0d1117; }
+      .chip { fill: #161b22; stroke: #30363d; }
+      .border { stroke: #30363d; }
+      .grid-line { stroke: #58a6ff; stroke-opacity: 0.05; }
+      .primary { fill: #f0f6fc; }
+      .secondary { fill: #8b949e; }
+    }
+  </style>
+
+  <rect class="surface" x="1" y="1" width="758" height="178" rx="14" />
+  <rect x="1" y="1" width="758" height="178" rx="14" fill="url(#grid)" />
+  <rect class="border" x="1" y="1" width="758" height="178" rx="14" fill="none" />
+  <rect x="1" y="1" width="758" height="3" rx="1.5" fill="url(#accent)" />
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text class="secondary" x="28" y="30" font-size="11" font-weight="600" letter-spacing="1.8">CORE STACK</text>
+
+    <g>
+      <rect class="chip" x="28" y="45" width="118" height="42" rx="10" />
+      <circle cx="49" cy="66" r="6" fill="#ed8b00" />
+      <text class="primary" x="64" y="71" font-size="15" font-weight="600">Java</text>
+    </g>
+    <g>
+      <rect class="chip" x="158" y="45" width="118" height="42" rx="10" />
+      <circle cx="179" cy="66" r="6" fill="#3776ab" />
+      <text class="primary" x="194" y="71" font-size="15" font-weight="600">Python</text>
+    </g>
+    <g>
+      <rect class="chip" x="288" y="45" width="90" height="42" rx="10" />
+      <circle cx="309" cy="66" r="6" fill="#00add8" />
+      <text class="primary" x="324" y="71" font-size="15" font-weight="600">Go</text>
+    </g>
+    <g>
+      <rect class="chip" x="390" y="45" width="105" height="42" rx="10" />
+      <circle cx="411" cy="66" r="6" fill="#dea584" />
+      <text class="primary" x="426" y="71" font-size="15" font-weight="600">Rust</text>
+    </g>
+    <g>
+      <rect class="chip" x="507" y="45" width="160" height="42" rx="10" />
+      <circle cx="528" cy="66" r="6" fill="#3178c6" />
+      <text class="primary" x="543" y="71" font-size="15" font-weight="600">TypeScript</text>
+    </g>
+
+    <g>
+      <rect class="chip" x="28" y="105" width="125" height="42" rx="10" />
+      <circle cx="49" cy="126" r="6" fill="#6db33f" />
+      <text class="primary" x="64" y="131" font-size="15" font-weight="600">Spring</text>
+    </g>
+    <g>
+      <rect class="chip" x="165" y="105" width="125" height="42" rx="10" />
+      <circle cx="186" cy="126" r="6" fill="#2496ed" />
+      <text class="primary" x="201" y="131" font-size="15" font-weight="600">Docker</text>
+    </g>
+    <g>
+      <rect class="chip" x="302" y="105" width="110" height="42" rx="10" />
+      <circle cx="323" cy="126" r="6" fill="#d4a72c" />
+      <text class="primary" x="338" y="131" font-size="15" font-weight="600">Linux</text>
+    </g>
+    <g>
+      <rect class="chip" x="424" y="105" width="190" height="42" rx="10" />
+      <circle cx="445" cy="126" r="6" fill="#2088ff" />
+      <text class="primary" x="460" y="131" font-size="15" font-weight="600">GitHub Actions</text>
+    </g>
+  </g>
+</svg>

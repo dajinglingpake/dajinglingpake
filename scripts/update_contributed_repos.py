@@ -4,7 +4,6 @@ import json
 import os
 import sys
 import urllib.request
-from urllib.parse import urlencode
 
 
 LOGIN = os.getenv("GITHUB_LOGIN", "dajinglingpake")
@@ -71,18 +70,10 @@ def render_repo_list(repos: list[dict]) -> str:
         return "暂未发现符合展示阈值的开源贡献项目。"
 
     items = ["<ul>"]
-    activity_query = urlencode({"q": f"author:{LOGIN}"})
     for repo in repos:
         name = html.escape(repo["nameWithOwner"])
         url = html.escape(repo["url"], quote=True)
-        activity_url = html.escape(f'{repo["url"]}/issues?{activity_query}', quote=True)
-        items.extend(
-            [
-                f'<li><strong>{name}</strong> · '
-                f'<a href="{url}">查看仓库</a> · '
-                f'<a href="{activity_url}">查看参与记录</a></li>',
-            ]
-        )
+        items.append(f'<li><strong><a href="{url}">{name}</a></strong></li>')
 
     items.append("</ul>")
     return "\n".join(items)
